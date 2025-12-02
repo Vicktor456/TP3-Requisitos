@@ -13,3 +13,10 @@ O GymControl é um sistema voltado para academias que permite o cadastro e geren
 | RF01 | O sistema deve permitir o cadastro de novos alunos com dados pessoais, plano escolhido e forma de pagamento. |Essencial|
 | RF02 | O sistema deve permitir que realize login para consultar seu histórico de treinos e pagamentos. |Essencial |
 | RF03 | O sistema deve permitir o controle de entrada e saída de alunos através da digital. | Importante |
+
+### Requisitos Não Funcionais (RNF)
+| ID | Descrição | Prioridade |
+|----|------------|-----------|
+| RNF01 | O sistema deve mostrar um resumo financeiro (mensal e anual) deve ser concluída no máximo 5 segundos, independente da quantidade de dados. | Importante |
+| RNF02 | Deve ser realizado um backup completo dos dados do sistema diariamente, de forma automatizada, garantindo a retenção dos últimos 30 dias. | Essencial |
+| RNF03 | As senhas de acesso de todos os usuários devem ser armazenadas. | Essencial |
