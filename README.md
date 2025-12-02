@@ -29,3 +29,36 @@ O GymControl é um sistema voltado para academias que permite o cadastro e geren
 | RN03 | Apenas administradores podem editar/excluir cadastros e editar dados financeiros. | Essencial | Essencial |
 
 ---
+
+## Diagramas UML
+
+### Diagrama de Casos de Uso
+![Diagrama de Casos de Uso - RF01](docs/Diagrama_de_caso_de_uso_RF01.png)
+
+![Diagrama de Casos de Uso - RF02](docs/Diagrama_de_caso_de_uso_RF02.png)
+
+![Diagrama de Casos de Uso - RF03](docs/Diagrama_de_caso_de_uso_RF03.png)
+
+### Diagrama de Sequência
+![Diagrama de Sequência - RF01](docs/Diagrama_de_sequencia_RF01.png)
+
+![Diagrama de Sequência - RF02](docs/Diagrama_de_sequencia_RF02.png)
+
+![Diagrama de Sequência - RF03](docs/Diagrama_de_sequencia_RF03.png)
+
+### Diagrama de Atividades
+![Diagrama de Atividades - RF01](docs/Diagrama_de_atividade_RF01.png)
+
+![Diagrama de Atividades - RF02](docs/Diagrama_de_atividade_RF02.png)
+
+![Diagrama de Atividades - RF03](docs/Diagrama_de_atividade_RF03.png)
+
+---
+
+## Arquitetura do Sistema
+O sistema adota o estilo arquitetural **MVC (Model–View–Controller)**, separando responsabilidades entre:
+- **Model:** lógica e acesso a dados.  
+- **View:** interface e interação com o usuário.  
+- **Controller:** coordenação entre as camadas.
+
+- ![Arquiteura do Sistema](docs/arquitetura.png)
